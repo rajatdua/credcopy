@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "prettier-fix": "prettier --write **/*.js",
     "prettier-check": "prettier --list-different **/*.js",
-    "lint-fix": "eslint --fix ."
+    "lint-fix": "eslint --fix .",
+    "rename": "react-native-rename"
   },
   "dependencies": {
     "axios": "^0.19.0",
@@ -45,6 +46,7 @@
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.57.0",
     "prettier": "^1.19.1",
+    "react-native-rename": "^2.4.1",
     "react-test-renderer": "16.9.0"
   },
   "jest": {
